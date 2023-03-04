@@ -19,9 +19,8 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   overflow-y: auto;
+  text-align: center;
 }
 
 .heading {
@@ -38,6 +37,8 @@
 .image {
   height: 150px;
   width: 150px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button {
@@ -50,6 +51,9 @@
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .down_container {
